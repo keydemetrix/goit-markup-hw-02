@@ -69,7 +69,6 @@ header {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.50;
 }
 
 /* Hover effect for the button */
@@ -90,7 +89,7 @@ header {
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 1.50;
+    
     }
 
     /* Hover effect for the button */
@@ -118,8 +117,6 @@ p {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
 }
 /*----------------------footer----------------------*/
 footer {
