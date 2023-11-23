@@ -1,9 +1,9 @@
 /* global colors */
 :root{
     --navy-blue: #434455;
-    --iris: #4D5AE5;
-    --conrflower: #E7E9FC;
-    --white: #FFFFFF;
+    --iris: #4d5ae5;
+    --conrflower: #e7e9Fc;
+    --white: #ffffff;
 }
 /* @font-face {
     font-family: 'roboto';
@@ -17,13 +17,19 @@
 
 /* global style for body */
 body {
-    font-family: Roboto, sans-serif;
-    color:var(--navy-blue);
-    background-color: var(--white);
-}
+        font-family: 'Roboto', sans-serif;
+        color: var(--navy-blue);
+        background-color: var(--white);
+        max-width: 1440px;
+        margin: 0 auto;
+    }
 /* removes underline on links */
 .link{
     text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: 0.03em;
     font-style: normal;
     color: var(--navy-blue);
 }
@@ -42,13 +48,7 @@ address {
 .web{
     color: var(--iris);
 }
-/* default style for logo */
-.custom-link {
-    text-decoration: none;
-    font-family: raleway , sans-serif;
-    font-weight: 800;
-    color: var(--navy-blue);
-}
+
 /* default bg color for header */
 header {
     background-color: var(--white) ;
@@ -69,6 +69,13 @@ header {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: inline-flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+
 }
 
 /* Hover effect for the button */
@@ -126,15 +133,15 @@ footer {
 .footer-link{
     color: var(--white);
     text-decoration: none;
-        font-family: raleway, sans-serif;
+        font-family: Raleway, sans-serif;
         font-weight: 800;
 }
 /*----------------------main images----------------------*/
-/* .section3-img {
+.section3-img {
     width: 360px;
     height: 300px;
 }
 .section4-img {
     width: 264px;
     height: 260px;
-} */
+}
