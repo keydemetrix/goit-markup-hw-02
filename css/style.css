@@ -34,7 +34,7 @@ body {
     text-transform:uppercase;
     line-height: 1.17;
     font-style: normal;
-    color: var(--gray);
+    color: var(--iris);
 }
 .submenu-link{
 text-decoration: none;
@@ -59,8 +59,8 @@ address {
     font-style: normal;
 }
 /*Higlighting word "WEB" on logo */
-.web{
-    color: var(--iris);
+span{
+    color: var(--gray);
 }
 
 /* default bg color for header */
