@@ -1,0 +1,105 @@
+/* global colors */
+:root{
+    --NAVY-BLUE: #2E2F42;
+    --IRIS: #4D5AE5;
+    --CORNFLOWER: #E7E9FC;
+    --WHITE: #FFF;
+}
+@font-face {
+    font-family: 'roboto';
+        font-style: normal;
+        src: local('Roboto'), local('Roboto-Regular'),
+            url('path/to/roboto.woff2') format('woff2'),
+            /* Modern Browsers */
+            url('path/to/roboto.woff') format('woff');
+}
+@font-face {
+    font-family: 'raleway';
+        font-style: normal;
+        src: local('Raleway'), local('Raleway-Regular'),
+            url('path/to/raleway.woff2') format('woff2'),
+            url('path/to/raleway.woff') format('woff');
+}
+/* global style for body */
+body {
+    font-family: 'roboto', sans-serif;
+    color:var(--NAVY-BLUE)
+}
+/* removes underline on links */
+.link{
+    text-decoration: none;
+    font-style: normal;
+    color: var(--NAVY-BLUE);
+}
+.link:hover{
+    color:var(--IRIS);
+}
+/* removes dots on ul */
+ul {
+    list-style-type: none;
+}
+/* remove italic style from address element */
+address {
+    font-style: normal;
+}
+/*Higlighting word "WEB" on logo */
+.web{
+    color: var(--IRIS);
+}
+/* default style for logo */
+.custom-link {
+    text-decoration: none;
+    font-family: 'raleway', sans-serif;
+    font-weight: 800;
+    color: var(--NAVY-BLUE);
+}
+/* default bg color for header */
+header {
+    background-color: var(--WHITE) ;
+}
+/* section 1 styling */
+.section1{
+    background-color: var(--NAVY-BLUE);
+    color: var(--WHITE);
+    
+}
+/* button styling */
+button {
+    background-color: #4D5AE5;
+    /* Background color */
+    color: #ffffff;
+    cursor: pointer;
+   /* font style */
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.50;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #4D5AE560;
+    /* Change the background color on hover */
+    color: #ffffff;
+}
+.sention2{
+    background: #FFF;
+}
+/* h3{
+   font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+} */
+
+p {
+    font-family: 'roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
