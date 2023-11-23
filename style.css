@@ -1,9 +1,9 @@
 /* global colors */
 :root{
-    --NAVY-BLUE: #434455;
-    --IRIS: #4D5AE5;
-    --CORNFLOWER: #E7E9FC;
-    --WHITE: #FFFFFF;
+    --navy-blue: #434455;
+    --iris: #4D5AE5;
+    --conrflower: #E7E9FC;
+    --white: #FFFFFF;
 }
 /* @font-face {
     font-family: 'roboto';
@@ -18,16 +18,16 @@
 /* global style for body */
 body {
     font-family: roboto, sans-serif;
-    color:var(--NAVY-BLUE)
+    color:var(--navy-blue)
 }
 /* removes underline on links */
 .link{
     text-decoration: none;
     font-style: normal;
-    color: var(--NAVY-BLUE);
+    color: var(--navy-blue);
 }
 .link:hover{
-    color:var(--IRIS);
+    color:var(--iris);
 }
 /* removes dots on ul */
 ul {
@@ -39,29 +39,29 @@ address {
 }
 /*Higlighting word "WEB" on logo */
 .web{
-    color: var(--IRIS);
+    color: var(--iris);
 }
 /* default style for logo */
 .custom-link {
     text-decoration: none;
     font-family: raleway , sans-serif;
     font-weight: 800;
-    color: var(--NAVY-BLUE);
+    color: var(--navy-blue);
 }
 /* default bg color for header */
 header {
-    background-color: var(--WHITE) ;
+    background-color: var(--white) ;
 }
 /* section 1 styling */
 .section1{
-    background-color: var(--NAVY-BLUE);
-    color: var(--WHITE);
+    background-color: var(--navy-blue);
+    color: var(--white);
 }
     /*----------------------main button----------------------*/
 .main-button {
-    background-color: var(--IRIS);
+    background-color: var(--iris);
     /* Background color */
-    color: var(--WHITE);
+    color: var(--white);
     cursor: pointer;
    /* font style */
     font-family: roboto, sans-serif;
@@ -75,14 +75,14 @@ header {
 .main-button:hover {
     background-color: #4D5AE560;
     /* Change the background color on hover */
-    color: var(--WHITE);
+    color: var(--white);
 }
     /*----------------------Portfolio buttons----------------------*/
 
      .portfolio-buttons{
-        background-color: var(--CORNFLOWER);
+        background-color: var(--conrflower);
         /* Background color */
-        color: var(--NAVY-BLUE);
+        color: var(--navy-blue);
         cursor: pointer;
         /* font style */
         font-family: roboto , sans-serif;
@@ -94,9 +94,9 @@ header {
 
     /* Hover effect for the button */
     .portfolio-buttons:hover{
-        background-color: var(--IRIS);
+        background-color: var(--iris);
         /* Change the background color on hover */
-        color: var(--WHITE);
+        color: var(--white);
 }
     /*----------------------sections----------------------*/
 
@@ -122,11 +122,11 @@ p {
 }
 /*----------------------footer----------------------*/
 footer {
-    background-color: var(--NAVY-BLUE);
-        color: var(--WHITE);
+    background-color: var(--navy-blue);
+        color: var(--white);
 }
 .footer-link{
-    color: var(--WHITE);
+    color: var(--white);
     text-decoration: none;
         font-family: raleway, sans-serif;
         font-weight: 800;
