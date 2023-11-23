@@ -36,33 +36,40 @@ body {
     font-style: normal;
     color: var(--iris);
 }
-a{
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: 0.03em;
-    text-transform: capitalize;
-    line-height: 1.17;
-    font-style: normal;
-    color: var(--gray);
-}
-a:hover{
-    color:var(--iris);
-}
-/* removes dots on ul */
-ul {
-    list-style-type: none;
-}
-/* remove italic style from address element */
-address {
-    font-style: normal;
-}
 /*Higlighting word "WEB" on logo */
-span{
+.link span {
     color: var(--gray);
+}
+.default-list {
+    list-style: none;
 }
 
+.link-first-item{
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--gray);
+        text-decoration: none;
+}
+/* Hover effect for the first link in the list */
+.link-first-item:hover {
+    color: var(--iris);
+}
+
+.submenu {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--gray);
+        text-decoration: none;
+}
+.submenu:hover {
+    color: var(--iris);
+}
 /* default bg color for header */
 header {
     background-color: var(--white) ;
@@ -82,7 +89,7 @@ header {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     display: inline-flex;
@@ -109,7 +116,7 @@ header {
         font-family: Roboto , sans-serif;
         font-size: 16px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 800;
     
     }
 
