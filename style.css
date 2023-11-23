@@ -61,13 +61,12 @@ header {
 .section1{
     background-color: var(--NAVY-BLUE);
     color: var(--WHITE);
-    
 }
-/* button styling */
-button {
-    background-color: #4D5AE5;
+    /*----------------------main button----------------------*/
+.main-button {
+    background-color: var(--IRIS);
     /* Background color */
-    color: #ffffff;
+    color: var(--WHITE);
     cursor: pointer;
    /* font style */
     font-family: 'roboto', sans-serif;
@@ -78,13 +77,36 @@ button {
 }
 
 /* Hover effect for the button */
-button:hover {
+.main-button:hover {
     background-color: #4D5AE560;
     /* Change the background color on hover */
-    color: #ffffff;
+    color: var(--WHITE);
 }
+    /*----------------------Portfolio buttons----------------------*/
+
+     .portfolio-buttons{
+        background-color: var(--CORNFLOWER);
+        /* Background color */
+        color: var(--NAVY-BLUE);
+        cursor: pointer;
+        /* font style */
+        font-family: 'roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.50;
+    }
+
+    /* Hover effect for the button */
+    .portfolio-buttons:hover{
+        background-color: var(--IRIS);
+        /* Change the background color on hover */
+        color: var(--WHITE);
+}
+    /*----------------------sections----------------------*/
+
 .sention2{
-    background: #FFF;
+    background: color: var(--WHITE);
 }
 /* h3{
    font-family: 'roboto', sans-serif;
@@ -103,6 +125,7 @@ p {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
+/*----------------------footer----------------------*/
 footer {
     background-color: var(--NAVY-BLUE);
         color: var(--WHITE);
@@ -112,4 +135,13 @@ footer {
     text-decoration: none;
         font-family: 'raleway', sans-serif;
         font-weight: 800;
+}
+/*----------------------main images----------------------*/
+.section3-img {
+    width: 360px;
+    height: 300px;
+}
+.section4-img {
+    width: 264px;
+    height: 260px;
 }
