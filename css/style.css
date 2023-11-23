@@ -27,7 +27,7 @@ body {
 /* removes underline on links */
 .link{
     text-decoration: none;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
