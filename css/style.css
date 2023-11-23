@@ -65,7 +65,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--gray);
-        text-decoration: none;
+
 }
 .submenu:hover {
     color: var(--iris);
@@ -73,6 +73,9 @@ body {
 /* default bg color for header */
 header {
     background-color: var(--white) ;
+}
+li {
+    list-style: none;
 }
 /* section 1 styling */
 .section1{
