@@ -1,5 +1,6 @@
 /* global colors */
 :root{
+    --gray: #2e2f42;
     --navy-blue: #434455;
     --iris: #4d5ae5;
     --conrflower: #e7e9Fc;
@@ -17,7 +18,7 @@
 
 /* global style for body */
 body {
-        font-family: 'Roboto', sans-serif;
+        font-family: Roboto, sans-serif;
         color: var(--navy-blue);
         background-color: var(--white);
         max-width: 1440px;
@@ -28,6 +29,7 @@ body {
     text-decoration: none;
     font-family: Raleway;
     font-size: 18px;
+    font-weight: 800;
     line-height: 1.17;
     text-transform: 0.03em;
     font-style: normal;
