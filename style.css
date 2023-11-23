@@ -103,3 +103,13 @@ p {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
+footer {
+    background-color: var(--NAVY-BLUE);
+        color: var(--WHITE);
+}
+.footer-link{
+    color: var(--WHITE);
+    text-decoration: none;
+        font-family: 'raleway', sans-serif;
+        font-weight: 800;
+}
