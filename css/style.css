@@ -36,8 +36,8 @@ body {
     font-style: normal;
     color: var(--iris);
 }
-.submenu-link{
-text-decoration: none;
+a{
+    text-decoration: none;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -47,7 +47,7 @@ text-decoration: none;
     font-style: normal;
     color: var(--gray);
 }
-.submenu-link:hover{
+a:hover{
     color:var(--iris);
 }
 /* removes dots on ul */
