@@ -139,9 +139,12 @@ footer {
 
 /* Hover effect for the button */
 .main-button:hover {
-    background-color: #4D5AE560;
+    background-color: #404BBF;
     /* Change the background color on hover */
     color: var(--white);
+}
+.main-button:focus{
+    background-color: #404BBF;
 }
 /* ------------------------------------------------------ */
 
