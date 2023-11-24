@@ -160,8 +160,10 @@ footer {
     letter-spacing: 0.02em;
 }
 /* ------------------------ 3rd Section ------------------------------ */
-.thridsec-title{
+.thirdsec{
     font-size: 36px;
+}
+.thirdsec-title{
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
