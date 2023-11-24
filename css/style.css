@@ -38,7 +38,7 @@ header {
     background-color: var(--white) ;
 }
 
-ul {
+li {
     list-style: none;
 }
 
