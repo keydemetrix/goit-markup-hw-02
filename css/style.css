@@ -163,7 +163,19 @@ footer {
     text-transform: capitalize;
     color: var(--gray);
 }
-/* ------------------------ 3rd Section ------------------------------ */
+/* ------------------------ 4th Section ------------------------------ */
+.fourthsec {
+    background-color: #f4f4fd;
+}
+.fourthsec-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--gray);
+}
+/* ------------------------ 4th Section ------------------------------ */
 .sention2 {
     background: color: var(--WHITE);
 }
