@@ -26,7 +26,7 @@ body {
     color: var(--iris);
 }
 /*Higlighting word "WEB" on logo */
-.link span {
+.hd-studio {
     color: var(--gray);
 }
 .default-list {
@@ -112,8 +112,14 @@ p {
         text-transform: uppercase;
 }
 .ft-studio{
-    color: var(--white);
+    color: #f4f4fd;
 }
+.ft-p{
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02;
+}
+
 /*----------------------Main Sections----------------------*/
 .first{
             background-color: var(--gray);
