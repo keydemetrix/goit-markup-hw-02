@@ -62,39 +62,6 @@ li {
 .link-first-item:hover {
     color: var(--iris);
 }
-
-
-/* section 1 styling */
-.section1{
-    background-color: var(--navy-blue);
-    color: var(--white);
-}
-    /*----------------------main button----------------------*/
-.main-button {
-    background-color: var(--iris);
-    /* Background color */
-    color: var(--white);
-    cursor: pointer;
-   /* font style */
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    display: inline-flex;
-        padding: 16px 32px;
-        align-items: flex-start;
-        gap: 10px;
-
-}
-
-/* Hover effect for the button */
-.main-button:hover {
-    background-color: #4D5AE560;
-    /* Change the background color on hover */
-    color: var(--white);
-}
     /*----------------------Portfolio buttons----------------------*/
 
      .portfolio-buttons{
@@ -118,9 +85,6 @@ li {
 }
     /*----------------------sections----------------------*/
 
-.sention2{
-    background: color: var(--WHITE);
-}
 /* h3{
    font-family: 'roboto', sans-serif;
     font-size: 20px;
@@ -147,7 +111,43 @@ footer {
         font-family: Raleway, sans-serif;
         font-weight: 500;
 }
-/*----------------------main images----------------------*/
+/*----------------------Main Sections----------------------*/
+.first{
+            background-color: var(--gray);
+            color: var(--white);
+}
+.first-title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.main-button {
+    background-color: var(--iris);
+    /* Background color */
+    color: var(--white);
+    cursor: pointer;
+    /* font style */
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+/* Hover effect for the button */
+.main-button:hover {
+    background-color: #4D5AE560;
+    /* Change the background color on hover */
+    color: var(--white);
+}
+/* ------------------------------------------------------ */
+
+.sention2 {
+    background: color: var(--WHITE);
+}
 .section3-img {
     width: 360px;
     height: 300px;
