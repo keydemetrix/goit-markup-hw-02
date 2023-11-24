@@ -29,7 +29,9 @@ body {
 .link span {
     color: var(--gray);
 }
-
+.default-list {
+    list-style: none; /* Remove default list style */
+}
 /* default bg color for header */
 header {
     background-color: var(--white) ;
@@ -41,7 +43,6 @@ ul {
 
 .nav{
     text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -53,7 +54,9 @@ ul {
 .nav:hover {
     color: var(--iris);
 }
-
+.nav:focus {
+    color: var(--iris);
+}
 /* Hover effect for the first link in the list */
 .link-first-item:hover {
     color: var(--iris);
