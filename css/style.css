@@ -32,7 +32,6 @@ body {
 .default-list {
     list-style: none; /* Remove default list style */
     font-style: normal;
-    background-color: var(--white);
 }
 /* default bg color for header */
 header {
@@ -176,9 +175,9 @@ footer {
     text-transform: capitalize;
     color: var(--gray);
 }
-.fourthsec-img {
-    width: 264px;
-    height: 260px;
+
+ul li:first-child {
+    background-color: #FFFFFF;
 }
 /* ------------------------ 4th Section ------------------------------ */
 .sention2 {
