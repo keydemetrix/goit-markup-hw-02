@@ -14,7 +14,6 @@ body {
         max-width: 1440px;
         margin: 0 auto;
     }
-/* removes underline on links */
 .link {
     text-decoration: none;
     font-family: Raleway, sans-serif;
@@ -23,29 +22,14 @@ body {
     letter-spacing: 0.03em;
     text-transform:uppercase;
     line-height: 1.17;
-    font-style: normal;
+    font-style: normal; /* removes underline on links */
     color: var(--iris);
 }
 /*Higlighting word "WEB" on logo */
 .link span {
     color: var(--gray);
 }
-.default-list {
-    list-style: none;
-}
-.submenu {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--gray);
 
-}
-.submenu:hover {
-    color: var(--iris);
-}
 /* default bg color for header */
 header {
     background-color: var(--white) ;
@@ -70,10 +54,6 @@ ul {
     color: var(--iris);
 }
 
-/* Hover effect for the first link in the list */
-.link-first-item:hover {
-    color: var(--iris);
-}
 /* Hover effect for the first link in the list */
 .link-first-item:hover {
     color: var(--iris);
