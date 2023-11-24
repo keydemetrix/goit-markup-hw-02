@@ -55,6 +55,9 @@ header {
     list-style: none;
     
 }
+ul {
+    list-style: none;
+}
 
 .link-first-item {
     text-decoration: none;
@@ -73,10 +76,6 @@ header {
 
 /* Hover effect for the first link in the list */
 .link-first-item:hover {
-    color: var(--iris);
-}
-/* Hover effect for the first link in the list */
-li:hover {
     color: var(--iris);
 }
 /* Hover effect for the first link in the list */
@@ -174,11 +173,4 @@ footer {
 .section4-img {
     width: 264px;
     height: 260px;
-}
-
-ul {
-    list-style-type: disc;
-    /* Change to 'none' for no bullets */
-    margin: 0;
-    padding: 0;
 }
