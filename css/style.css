@@ -98,7 +98,7 @@ p {
 }
 /*----------------------footer----------------------*/
 .footer-bg {
-    background-color: var(--navy-blue);
+    background-color: var(--gray);
         color: var(--white);
 }
 .footer-link{
@@ -111,7 +111,7 @@ p {
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
-.ft-studio{
+.Studio{
     color: #f4f4fd;
 }
 .ft-p{
