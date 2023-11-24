@@ -6,17 +6,7 @@
     --conrflower: #e7e9Fc;
     --white: #ffffff;
 }
-/* @font-face {
-    font-family: 'roboto';
-        font-style: normal;
-        src: url('https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2') format('woff2');
-}
-@font-face {
-    font-family: raleway;
-        font-style: normal;
-        src: url('https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2') format('woff2'); */
 
-/* global style for body */
 body {
         font-family: Roboto, sans-serif;
         color: var(--navy-blue);
@@ -25,7 +15,7 @@ body {
         margin: 0 auto;
     }
 /* removes underline on links */
-.link{
+.link {
     text-decoration: none;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -43,20 +33,6 @@ body {
 .default-list {
     list-style: none;
 }
-
-.link-first-item{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--gray);
-        text-decoration: none;
-}
-/* Hover effect for the first link in the list */
-.link-first-item:hover {
-    color: var(--iris);
-}
-
 .submenu {
     text-decoration: none;
     font-style: normal;
@@ -74,8 +50,38 @@ body {
 header {
     background-color: var(--white) ;
 }
-li {
+
+.default-list {
     list-style: none;
+    
+}
+
+.link-first-item {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--gray);
+}
+
+/* Hover effect for the first link in the list */
+.link-first-item:hover {
+    color: var(--iris);
+}
+
+/* Hover effect for the first link in the list */
+.link-first-item:hover {
+    color: var(--iris);
+}
+/* Hover effect for the first link in the list */
+li:hover {
+    color: var(--iris);
+}
+/* Hover effect for the first link in the list */
+.link-first-item:hover {
+    color: var(--iris);
 }
 /* section 1 styling */
 .section1{
@@ -175,9 +181,4 @@ ul {
     /* Change to 'none' for no bullets */
     margin: 0;
     padding: 0;
-}
-
-li {
-    margin: 5px 0;
-    /* Add spacing between list items */
 }
