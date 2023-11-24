@@ -41,7 +41,6 @@ header {
 /* -----------------------------nav------------------------------ */
 .nav{
     text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -70,13 +69,16 @@ header {
         letter-spacing: 0.02em;
         color: var(--gray);
 }
-/* Hover effect for the first link in the list */
 .port-nav:hover {
     color: var(--nav-blue);
 }
 
 .port-nav:focus {
     color: var(--nav-blue);
+}
+
+.contacts-list{
+    font-style: normal;
 }
     /*----------------------Portfolio buttons----------------------*/
 
