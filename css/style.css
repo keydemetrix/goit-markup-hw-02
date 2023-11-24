@@ -50,14 +50,14 @@ header {
 
 /* Hover effect for the first link in the list */
 .nav:hover {
-    color: var(--nav-blue);
+    color: var(--iris);
 }
 .nav:focus {
-    color: var(--nav-blue);
+    color: var(--iris);
 }
 /* Hover effect for the first link in the list */
 .link-first-item:hover {
-    color: var(--nav-blue);
+    color: var(--iris);
 }
 
 
@@ -71,16 +71,11 @@ header {
 }
 /* Hover effect for the first link in the list */
 .port-nav:hover {
-    color: #404bbf;
+    color: var(--nav-blue);
 }
 
 .port-nav:focus {
-    color: var(--iris);
-}
-
-/* Hover effect for the first link in the list */
-.link-first-item:hover {
-    color: var(--iris);
+    color: var(--nav-blue);
 }
     /*----------------------Portfolio buttons----------------------*/
 
