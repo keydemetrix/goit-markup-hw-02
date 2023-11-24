@@ -5,6 +5,7 @@
     --iris: #4d5ae5;
     --conrflower: #e7e9Fc;
     --white: #ffffff;
+    --nav-blue:#404bbf;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
 header {
     background-color: var(--white) ;
 }
-
+/* -----------------------------nav------------------------------ */
 .nav{
     text-decoration: none;
     font-weight: 500;
@@ -49,11 +50,34 @@ header {
 
 /* Hover effect for the first link in the list */
 .nav:hover {
-    color: var(--iris);
+    color: var(--nav-blue);
 }
 .nav:focus {
+    color: var(--nav-blue);
+}
+/* Hover effect for the first link in the list */
+.link-first-item:hover {
+    color: var(--nav-blue);
+}
+
+
+.port-nav{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--gray);
+}
+/* Hover effect for the first link in the list */
+.port-nav:hover {
+    color: #404bbf;
+}
+
+.port-nav:focus {
     color: var(--iris);
 }
+
 /* Hover effect for the first link in the list */
 .link-first-item:hover {
     color: var(--iris);
