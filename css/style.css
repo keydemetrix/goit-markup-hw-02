@@ -169,3 +169,15 @@ footer {
     width: 264px;
     height: 260px;
 }
+
+ul {
+    list-style-type: disc;
+    /* Change to 'none' for no bullets */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    /* Add spacing between list items */
+}
