@@ -97,15 +97,22 @@ p {
         font-weight: 400;
 }
 /*----------------------footer----------------------*/
-footer {
+.footer-bg {
     background-color: var(--navy-blue);
         color: var(--white);
 }
 .footer-link{
-    color: var(--white);
+    color: var(--iris);
     text-decoration: none;
         font-family: Raleway, sans-serif;
-        font-weight: 500;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.ft-studio{
+    color: var(--white);
 }
 /*----------------------Main Sections----------------------*/
 .first{
