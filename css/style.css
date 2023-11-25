@@ -78,10 +78,10 @@ header {
 
 /* Hover effect for the first link in the list */
 .sub:hover {
-    color: var(--iris);
+    color: var(--nav-blue);
 }
 .sub:focus {
-    color: var(--iris);
+    color: var(--nav-blue);
 }
 /* Hover effect for the first link in the list */
 .link-first-item:hover {
