@@ -66,7 +66,7 @@ header {
     padding: 0;
 }
 
-.default-list {
+.default-list li{
     margin-bottom: 5px;
 
 }
@@ -75,7 +75,7 @@ address li {
     list-style: none;
     font-style: normal;
 }
-.nav{
+.default-list a{
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -85,10 +85,10 @@ address li {
 }
 
 /* Hover effect for the first link in the list */
-.nav:hover {
+.default-list a:hover {
     color: var(--iris);
 }
-.nav:focus {
+.default-list a:focus {
     color: var(--iris);
 }
 /* Hover effect for the first link in the list */
