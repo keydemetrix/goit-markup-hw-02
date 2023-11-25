@@ -62,7 +62,6 @@ header {
 /* -----------------------------nav------------------------------ */
 .list {
     list-style: none;
-    text-decoration: none;
     margin: 0;
     padding: 0;
 }
@@ -88,7 +87,14 @@ header {
 .link-first-item:hover {
     color: var(--iris);
 }
+/* ---------------------------Address------------------------------- */
+.remove {
+    font-style: normal;
+}
 
+address a{
+    color: var(--navy-blue);
+}
 /* ---------------------------Portfolio Nav---------------------------- */
 .port-nav{
         font-weight: 500;
