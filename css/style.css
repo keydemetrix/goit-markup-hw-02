@@ -65,8 +65,11 @@ header {
     margin: 0;
     padding: 0;
 }
-
-.sub{
+.list li:first-child a{
+    text-decoration: none;
+    font-style: normal;
+}
+.sub {
     font-style: normal;
     text-decoration: none;
     font-weight: 500;
