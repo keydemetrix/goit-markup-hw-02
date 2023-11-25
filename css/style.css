@@ -68,7 +68,7 @@ header {
     color: var(--iris);
 }
 
-.sub-first-item{
+.add-first-item{
     font-style: normal;
     text-decoration: none;
     font-weight: 500;
@@ -76,6 +76,13 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--gray);
+}
+.add-first-item:hover {
+    color: var(--nav-blue);
+}
+
+.add-first-item:focus {
+    color: var(--nav-blue);
 }
 /* ---------------------------Address------------------------------- */
 .remove {
