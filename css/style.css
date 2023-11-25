@@ -54,23 +54,19 @@ body {
 .hd-studio {
     color: var(--gray);
 }
-.default-list {
-    list-style: none; /* Remove default list style */
-    font-style: normal;
-}
 /* default bg color for header */
 header {
     background-color: var(--white) ;
 }
 
 /* -----------------------------nav------------------------------ */
-ul {
+.default-list ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+.default-list {
     margin-bottom: 5px;
 
 }
