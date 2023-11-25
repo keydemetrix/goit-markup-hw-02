@@ -14,12 +14,12 @@
         /* Add any other CSS variables you need */
     
         /* Exclude the unnecessary rules from the root */
-        --exclude-position: initial;
-        --exclude-width: initial;
-        --exclude-height: initial;
-        --exclude-left: initial;
-        --exclude-top: initial;
-        --exclude-box-sizing: initial;
+        --exclude-position: static;
+        --exclude-width: 100px;
+        --exclude-height: 100px;
+        --exclude-left: 100px;
+        --exclude-top: 100px;
+        --exclude-box-sizing: border-box;
         --exclude-display: initial;
         --exclude-align-items: initial;
         --exclude-padding: initial;
