@@ -67,23 +67,6 @@ header {
 .link-first-item:hover {
     color: var(--iris);
 }
-
-.add-first-item{
-    font-style: normal;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--gray);
-}
-.add-first-item:hover {
-    color: var(--nav-blue);
-}
-
-.add-first-item:focus {
-    color: var(--nav-blue);
-}
 /* ---------------------------Address------------------------------- */
 .remove {
     font-style: normal;
