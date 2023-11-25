@@ -6,6 +6,30 @@
     --conrflower: #e7e9Fc;
     --white: #ffffff;
     --nav-blue:#404bbf;
+    --main-bg-color: #ffffff;
+        --button-bg-color: #3498db;
+        --button-text-color: #ffffff;
+        --button-padding: 10px 20px;
+        --button-font-size: 16px;
+        /* Add any other CSS variables you need */
+    
+        /* Exclude the unnecessary rules from the root */
+        --exclude-position: initial;
+        --exclude-width: initial;
+        --exclude-height: initial;
+        --exclude-left: initial;
+        --exclude-top: initial;
+        --exclude-box-sizing: initial;
+        --exclude-display: initial;
+        --exclude-align-items: initial;
+        --exclude-padding: initial;
+        --exclude-flex-direction: initial;
+        --exclude-gap: initial;
+        --exclude-border-radius: initial;
+        --exclude-box-shadow: initial;
+        --exclude-order: initial;
+        --exclude-flex-grow: initial;
+        --exclude-border-bottom: initial;
 }
 
 body {
@@ -38,6 +62,9 @@ body {
 header {
     background-color: var(--white) ;
 }
+
+
+
 /* -----------------------------nav------------------------------ */
 .nav{
     text-decoration: none;
