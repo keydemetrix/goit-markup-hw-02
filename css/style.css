@@ -62,15 +62,21 @@ body {
 header {
     background-color: var(--white) ;
 }
-nav ul{
+
+/* -----------------------------nav------------------------------ */
+nav ul {
     list-style: none;
 }
 
 nav li {
     margin-bottom: 5px;
+
 }
 
-/* -----------------------------nav------------------------------ */
+address li {
+    list-style: none;
+    font-style: normal;
+}
 .nav{
     text-decoration: none;
     font-weight: 500;
