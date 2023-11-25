@@ -66,9 +66,9 @@ header {
     padding: 0;
 }
 
-.list a{
-    text-decoration: none;
+.sub{
     font-style: normal;
+    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -77,10 +77,10 @@ header {
 }
 
 /* Hover effect for the first link in the list */
-.list a:hover {
+.sub:hover {
     color: var(--iris);
 }
-.list a:focus {
+.sub:focus {
     color: var(--iris);
 }
 /* Hover effect for the first link in the list */
