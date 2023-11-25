@@ -7,29 +7,6 @@
     --white: #ffffff;
     --nav-blue:#404bbf;
     --main-bg-color: #ffffff;
-        --button-bg-color: #3498db;
-        --button-text-color: #ffffff;
-        --button-padding: 10px 20px;
-        --button-font-size: 16px;
-        /* Add any other CSS variables you need */
-    
-        /* Exclude the unnecessary rules from the root */
-        --exclude-position: static;
-        --exclude-width: 100px;
-        --exclude-height: 100px;
-        --exclude-left: 100px;
-        --exclude-top: 100px;
-        --exclude-box-sizing: border
-        --exclude-display: initial;
-        --exclude-align-items: initial;
-        --exclude-padding: initial;
-        --exclude-flex-direction: initial;
-        --exclude-gap: initial;
-        --exclude-border-radius: initial;
-        --exclude-box-shadow: initial;
-        --exclude-order: initial;
-        --exclude-flex-grow: initial;
-        --exclude-border-bottom: initial;
 }
 
 body {
@@ -109,6 +86,7 @@ header {
 .add:focus {
     color: var(--nav-blue);
 }
+
 /* ---------------------------Portfolio Nav---------------------------- */
 .port-nav{
         font-weight: 500;
