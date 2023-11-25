@@ -19,7 +19,7 @@
         --exclude-height: 100px;
         --exclude-left: 100px;
         --exclude-top: 100px;
-        --exclude-box-sizing: border-box;
+        --exclude-box-sizing: border
         --exclude-display: initial;
         --exclude-align-items: initial;
         --exclude-padding: initial;
@@ -62,8 +62,13 @@ body {
 header {
     background-color: var(--white) ;
 }
+ul{
+    list-style: none;
+}
 
-
+li {
+    margin-bottom: 5px;
+}
 
 /* -----------------------------nav------------------------------ */
 .nav{
@@ -89,7 +94,6 @@ header {
 
 /* ---------------------------Portfolio Nav---------------------------- */
 .port-nav{
-        text-decoration: none;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
