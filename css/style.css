@@ -196,3 +196,7 @@ body{
         color: var(--white);
 }
 /* --------------- END OF PORTFOLIO  HEADER BUTTONS----------------*/
+/* 2nd Section of Portfolio */
+.img-list{
+    text-decoration: none;
+}
