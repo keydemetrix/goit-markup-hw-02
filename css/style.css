@@ -175,7 +175,7 @@ body{
     letter-spacing: 0.02em;
 }
 /* --------------- END OF FOOTER----------------*/
-/* Porfolio buttons */
+/* Porfolio header buttons */
 
 .portfolio-buttons{
         font-family: Roboto, sans-serif;
@@ -194,3 +194,4 @@ body{
     background-color: var(--nav-blue);
         color: var(--white);
 }
+/* --------------- END OF PORTFOLIO  HEADER BUTTONS----------------*/
