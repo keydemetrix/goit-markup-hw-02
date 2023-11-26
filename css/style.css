@@ -112,7 +112,7 @@ body{
         letter-spacing: 0.02em;
         color: var(--navy-blue);
 }
-/* --------------- END OF FIRST SEC ----------------*/
+/* --------------- END OF 2ND SEC ----------------*/
 /* Third Section */
 .third-sec-title{
     font-size: 36px;
@@ -122,3 +122,14 @@ body{
     text-transform: uppercase;
     color: var(--gray);
 }
+/* --------------- END OF 3RD SEC ----------------*/
+/* 4th Sec */
+.fourthsec-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align:center;
+    letter-spacing:0.02em;
+    text-transform:uppercase;
+    color: var(--gray);
+}
+/* --------------- END OF 4th SEC ----------------*/
