@@ -186,7 +186,11 @@ body{
         color: var(--iris);
         cursor: pointer;
 }
-.portfolio-buttons:hover, :focus {
+.portfolio-buttons:hover{
     background-color: var(--nav-blue);
     color: var(--white);
+}
+.portfolio-buttons:focus{
+    background-color: var(--nav-blue);
+        color: var(--white);
 }
