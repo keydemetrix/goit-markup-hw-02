@@ -124,9 +124,6 @@ body{
 }
 /* --------------- END OF 3RD SEC ----------------*/
 /* 4th Sec */
-.fourth {
-    background-color: var(--white);
-}
 .fourthsec {
     background-color: #f4f4fd;
 }
@@ -137,5 +134,21 @@ body{
     letter-spacing:0.02em;
     text-transform:capitalize;
     color: var(--gray);
+}
+.employee-bgcolor {
+    background-color: var(--white);
+}
+.employee-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--gray);
+}
+.employee-position {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
 }
 /* --------------- END OF 4th SEC ----------------*/
